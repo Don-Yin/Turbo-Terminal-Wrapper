@@ -1,15 +1,19 @@
 ## Terminal Wrapper for ChatGPT turbo
 
+
+https://user-images.githubusercontent.com/65135356/228243450-4eac489e-ab68-44df-b3a4-a71faea67a84.mov
+
+
 ## How to use
 ### Set up
 Put your API key in ```private/api.key``` (make one yourself)
 ```pip install -r requirements```
 
-Put the following in ```.bashrc```
+Put the following in your ```.bashrc```
 
 ```
-alias nim-clear="python /Users/donyin/Desktop/repo~bot/clear.py"
-alias nim="setopt NO_NOMATCH; python /Users/donyin/Desktop/repo~bot/main.py"
+alias nim-clear="python {your abs path to}/clear.py"
+alias nim="setopt NO_NOMATCH; python {your abs path to}/main.py"
 ```
 
 ### Usage
